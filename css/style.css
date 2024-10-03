@@ -2542,7 +2542,12 @@ body.dark .shane_tm_news ul li .title a:hover{
 	.shane_tm_commentbox_wrap .wp{padding-left: 0px;}
 	.shane_tm_commentbox_wrap .title h3{font-size: 18px !important;}
 }
-
+.nop_txt{
+	text-align: justify;
+		word-spacing: -2px;
+		letter-spacing: 0.5px;
+		hyphens: auto;
+}
 @media (max-width: 360px) {
 	.cd-headline {
 			font-size: 15px;
