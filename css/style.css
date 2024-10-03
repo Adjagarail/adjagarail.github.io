@@ -2513,7 +2513,7 @@ body.dark .shane_tm_news ul li .title a:hover{
 }
 @media (max-width: 768px) {
 	.shane_tm_home .content h3{font-size: 35px;}
-	.cd-headline{font-size: 20px;}
+	.cd-headline{font-size: 17px;}
 	.shane_tm_about .shane_tm_services ul{margin: 0px;}
 	.shane_tm_about .shane_tm_services ul li{width: 100%;padding-left: 0px;}
 	.shane_tm_facts ul{margin: 0px;}
@@ -2541,6 +2541,18 @@ body.dark .shane_tm_news ul li .title a:hover{
 	.shane_tm_commentbox_wrap .wp .avatar{position: relative;margin-bottom: 20px;}
 	.shane_tm_commentbox_wrap .wp{padding-left: 0px;}
 	.shane_tm_commentbox_wrap .title h3{font-size: 18px !important;}
+}
+
+@media (max-width: 360px) {
+	.cd-headline {
+			font-size: 15px;
+		}
+}
+
+@media (max-width: 384px) {
+	.cd-headline {
+		font-size: 15px;
+	}
 }
 .cd-headline.slide .cd-words-wrapper{overflow: visible;}
 
